@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+     >
+     
+    <TextView 
+        android:text="Courses"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        
+        />
+    
+
+<TableLayout
+
+android:layout_height="fill_parent"
+android:layout_width="fill_parent"
+>
+<TableRow>
+    <ImageButton 
+        android:id="@+id/homea"
+        android:layout_height="75px"
+        android:layout_width="75px"
+        android:src="@drawable/androidimage"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitXY"
+        
+        
+        />
+    
+	<TextView
+	    android:text="Android Description"
+	    android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        
+        
+	/>
+	
+</TableRow>
+<TableRow>
+    <ImageButton 
+        android:id="@+id/homej"
+        android:layout_height="75px"
+        android:layout_width="75px"
+        android:src="@drawable/javaimage"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitXY"
+        
+        
+        />
+    
+	<TextView
+	    android:text="Java Description"
+	    android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        
+        
+	/>
+	
+</TableRow>
+<TableRow>
+    <ImageButton 
+        android:id="@+id/homeo"
+        android:layout_height="75px"
+        android:layout_width="75px"
+        android:src="@drawable/oracleimage"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitXY"
+        
+        
+        />
+    
+	<TextView
+	    android:text="Oracle Description"
+	    android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        
+        
+	/>
+	
+</TableRow>
+<TableRow>
+    <ImageButton 
+        android:id="@+id/homep"
+        android:layout_height="75px"
+        android:layout_width="75px"
+        android:src="@drawable/phpimage"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_marginRight="10dp"
+        android:scaleType="fitXY"
+        
+        
+        />
+    
+	<TextView
+	    android:text="PHP Description"
+	    android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        
+        
+	/>
+	
+</TableRow>
+
+</TableLayout>
+
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onlineshopping"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.onlineshopping.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.onlineshopping.Homepage"
+            android:label="@string/title_activity_homepage" >
+        </activity>
+        <activity
+            android:name="com.example.onlineshopping.Android"
+            android:label="@string/title_activity_android" >
+        </activity>
+        <activity
+            android:name="com.example.onlineshopping.Java"
+            android:label="@string/title_activity_java" >
+        </activity>
+        <activity
+            android:name="com.example.onlineshopping.Oracle"
+            android:label="@string/title_activity_oracle" >
+        </activity>
+        <activity
+            android:name="com.example.onlineshopping.PHP"
+            android:label="@string/title_activity_php" >
+        </activity>
+        <activity
+            android:name="com.example.onlineshopping.AddToCart"
+            android:label="@string/title_activity_add_to_cart" >
+        </activity>
+        <activity
+            android:name="com.example.onlineshopping.Checkout"
+            android:label="@string/title_activity_checkout" >
+        </activity>
+        <activity
+            android:name="com.example.onlineshopping.Confirmation"
+            android:label="@string/title_activity_confirmation" >
+        </activity>
+        <activity
+            android:name="com.example.onlineshopping.ThankYou"
+            android:label="@string/title_activity_thank_you" >
+        </activity>
+    </application>
+
+</manifest>

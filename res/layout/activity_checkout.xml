@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Checkout" 
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Courses Selected :"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/checktv1"
+        android:textSize="20dp" 
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Cost :"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/checktv2"
+        android:textSize="20dp" 
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="After Discount :"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/checktv3"
+        android:textSize="20dp" 
+         />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay By :"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp" />
+    
+    <RadioGroup 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        
+        >
+        
+        <RadioButton 
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb1"
+        android:text="Credit Card"
+        />
+        
+        <RadioButton 
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rb2"
+        android:text="Debit Card"
+        />
+    </RadioGroup>
+  
+    
+    <AutoCompleteTextView android:id="@+id/banks"
+	android:layout_width="225dp"
+	android:layout_height="wrap_content" 
+	android:layout_gravity="center_horizontal"
+	android:hint="Enter Bank Name"
+	/>
+ 
+<EditText 
+    android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+            android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"
+        android:hint="Enter Account Number"
+        android:inputType="numberPassword"
+        
+        
+        />
+
+<Button 
+    android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt1"
+        android:text="Go Ahead"
+    
+    
+    />
+    
+</LinearLayout>
